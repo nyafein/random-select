@@ -12,9 +12,6 @@ st.write("This app lets you enter a list of names and then randomly selects one.
 # Input for names from the user (each name separated by a comma)
 names_input = st.text_area("Enter names separated by commas:")
 
-# Input for text whose words need to be counted
-user_input = st.text_area("Enter some text:")
-
 # Button to trigger random name selection and word count
 if st.button("Select Random Name"):
     # Split the names by commas and strip whitespace
